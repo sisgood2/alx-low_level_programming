@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include "main.h"
 
 /**
  * main - Prints the sum of even-valued Fibonacci sequence
