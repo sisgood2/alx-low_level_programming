@@ -1,4 +1,4 @@
-#include "_putchar.h"
+#include "main.h"
 /**
  * main - Entry point
  *
@@ -6,12 +6,14 @@
  */
 int main(void)
 {
-	char *sh = "_putchar";
+	char sisay[] = "_putchar";
 
-	while (*sh)
+
+	int c;
+	
+	for (c= 0; c<8; c++)
 	{
-		_putchar(*sh);
-		sh++;
+		_putchar(sisay[c]);
 	}
 	_putchar('\n');
 
